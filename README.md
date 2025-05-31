@@ -12,14 +12,9 @@ The project uses the following files:
 - WW01 node.csv: Node metadata for network structure
 - WW01 edge.csv: Edge connections between nodes
   
-# Dependencies and Setup
-Before running the code, ensure the following libraries are installed:
-``` bash
-- pip install torch torchvision torchaudio
-- pip install torch-geometric
-- pip install imbalanced-learn
-- pip install openpyxl
-- pip install pandas numpy scikit-learn matplotlib
+# Install dependencies
+```bash
+!pip install -r requirement.txt
 ```
 # Key Libraries and Imports
 - pandas, numpy: Data manipulation
